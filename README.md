@@ -18,6 +18,7 @@
 <!-- Vulnerabilities List -->
 ## Vulnerabilities
 
+* Eo
 * Matei
 * SQL Injection
 * Cross Site Scripting (XSS)
