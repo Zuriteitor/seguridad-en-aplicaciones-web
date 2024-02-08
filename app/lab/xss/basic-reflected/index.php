@@ -23,7 +23,7 @@ $strings = tr();
 
     if (isset($_GET['q'])) {
       $q = $_GET['q'];
-      $q = htmlspecialchars($_GET[ 'q' ]); //cambia los caracteres (&,<,>,',") a text (ZURITA)a
+      $q = htmlspecialchars($_GET[ 'q' ]); //cambia los caracteres (&,<,>,',") a text (ZURITA)aa
       echo '<div class="alert alert-danger" style="margin-top: 30vh;" role="alert" >';
       echo '' . $strings['text'] . ' <b>' . $q . '</b> ';
       echo '<a href="index.php" ">' . $strings['try'] . '</a>';
